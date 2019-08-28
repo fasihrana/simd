@@ -4,7 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c9bedd-346e-42fd-bbaf-460b0b6284e8" name="Default Changelist" comment="" />
+    <list default="true" id="74c9bedd-346e-42fd-bbaf-460b0b6284e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/benches/example.rs" beforeDir="false" afterPath="$PROJECT_DIR$/benches/example.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simd.iws" beforeDir="false" afterPath="$PROJECT_DIR$/simd.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   </component>
   <component name="ProjectId" id="1PVd2VepCjGs3Q9Sjwryt4C0xNC" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunDashboard">
@@ -72,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
