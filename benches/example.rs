@@ -1,10 +1,10 @@
 use simd::*;
 use bencher::*;
 
-const len: usize = 10000000;
+const LEN: usize = 10000000;
 
 fn normal_add_bench(b: &mut Bencher) {
-    let mut arr = vec![1;len];
+    let mut arr = vec![1;LEN];
     b.iter(move ||{
 
         normal_add(&mut arr, 1); 
@@ -13,7 +13,8 @@ fn normal_add_bench(b: &mut Bencher) {
 
 fn simd_add_bench(b:&mut Bencher) {
     unsafe {
-        let mut arr = vec![1; len];
+        let mut arr = vec![1; LEN];
+        #[allow(unused_mut)]
         let (mut prefix, mut arr, mut suffix) = arr.align_to_mut::<[i32;8]>();
         let arr: &mut [i32] = &mut *(arr as *mut _ as *mut _);
 
